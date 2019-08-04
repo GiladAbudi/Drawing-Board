@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+
+</head>
+<body>
+
+<script src="sketch.js"></script>
+
+<div>
+
+  <p>
+   Admin user name: <input class="adminName" id="adminName" ><br>
+    Admin password :  <input class="adminPassWord" id="adminPassWord"><br>
+    <button id="SubmissionButtonAdmin">Login</button>
+  </p>
+
+
+<p> Choose shape:
+    <button id="SubmissionButtonCircul">Circul</button> <button id="SubmissionButtonTriangle">Triangle</button>
+    <button id="SubmissionButtonSquare">Square</button> <button id="SubmissionButtonStar">Star</button>
+    <button id="SubmissionButtonGear">Gear</button>
+    <p><button id="SubmissionButtonSizePlus">Increase size</button><button id="SubmissionButtonSizeMinus">Decrease size</button></p>
+</p>
+  <button id="SubmissionButtonClear">Clear all</button>
+  <p> Drawing Board </p>
+
+
+</div>
+
+</body>
+</html>
